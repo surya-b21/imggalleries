@@ -1,0 +1,110 @@
+
+Steps
+----------
+1. Add "cw notifications" folder in theme.
+2. Add "Includes" folder in theme.
+3. Add 2 images in images folder.
+4. 	In Function.php ->
+					1. enqueue->
+							/**
+							 * Include welcome page
+							 */
+							require_once get_template_directory() . '/includes/features/feature-about-page.php';
+					2. Copy/paste->
+							/*
+							* Redirect to about us page.
+							*/
+							if (is_admin() && isset($_GET['activated']) && $pagenow == "themes.php")
+								wp_redirect('themes.php?page=andrina-lite-welcome');
+5. In above folders("cw notifications" and "Includes" ) Change Theme slug .
+6. In above folder("cw notifications" and "Includes" ) Change Theme Name.
+
+Testing
+-----------
+1. Add the following in function.php head.
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+NOTE:remove the above function fron function.php before uploading the theme on wordpress.org.
+
+2. Test the theme via theme sniffer to remove the errors and warning.
+
+3. Test the theme via theme check to remove the errors and warning.
+
+
+===================================================================================================================================
+
+
+function.php
+===================================
+
+/*
+* Redirect to about us page.
+*/
+if (is_admin() && isset($_GET['activated']) && $pagenow == "themes.php")
+    wp_redirect('themes.php?page=andrina-lite-welcome');
+
+
+/**
+ * Include welcome page
+ */
+require_once get_template_directory() . '/includes/features/feature-about-page.php';
+
+=========================================================================================================================================
+
+Feature ABout pAGE
+---------------------------
+$func = 'general_admin_notice';
+
+
+function general_admin_notice() {
+    $content = '<div class="warning-message">
+       <img src="' . get_template_directory_uri() . '/images/information-icon.png"/>
+    <p>Switch to Colorway WordPress Theme which is packed with 35+ ready-made elementor templates & offers better customization features and website development elements. <a href="https://wordpress.org/themes/colorway/" target="_blank">Download Colorway</a> for Free !!</p>
+</div>';
+    $content .= '<div id="colorway-sites-on-active" data-repeat-notice-after="">
+                    <div class="notice-container">
+                        <div class="colorway-sites-wrap">
+                        <div class="block1-container">
+                        <div class="top-container">
+                            <div class="notice-image">
+                            <img src="' . get_template_directory_uri() . '/images/thumb33.png" class="custom-logo" alt="Start Point">
+                            </div> 
+                            
+                        <div class="notice-content">
+                        <div class="colorway-sites-block">
+                        <h4>Colorway - Advanced Elementor Based WordPress Theme</h4>
+                        <p>Create stunning websites in a minute by using 35+ elementor based site templates and the Drag & Drop builder.</p>
+                        </div>
+	<div class="colorway-review-notice-container">';
+
+    //Check if Colorway Theme Exists or not        
+    $get_themes = array();
+    $get_themes = wp_get_themes();
+    //$activate_nonce_url = admin_url() . 'themes.php?action=activate&stylesheet=colorway';
+   // $install_nonce_url = admin_url() . 'update.php?action=install-theme&theme=colorway';
+    
+    if (array_key_exists("colorway", $get_themes)) {
+        //$content .= '<a href="'.wp_nonce_url($activate_nonce_url).'" class="button button-primary button-hero">Try Colorway For Free</a>';
+        $content .= '<a href="'.admin_url('theme-install.php?search=colorway').'" class="button button-primary button-hero">Try Colorway For Free</a>';
+    } else {
+        //$content .= '<a href="'.wp_nonce_url($install_nonce_url).'" class="button button-primary button-hero">Try to Colorway For Free</a>';
+        $content .= '<a href="'.admin_url('theme-install.php?search=colorway').'" class="button button-primary button-hero">Try to Colorway For Free</a>';
+    }
+    $content .= '<a target="_blank" href="' . esc_url(admin_url("customize.php")) . '" class="button cwy-sites-btn">Go to the Customizer</a></div>
+       </div></div></div><div class="cw-sites-video">
+ <div class="cwy-video-section embed-container">
+<iframe width="100%" height="315px" src="https://www.youtube.com/embed/WLrfR4-HEfo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>                </div>
+            
+</div>
+        </div>
+        </div>
+	</div>';
+    return $content;
+}
+
+
+
+

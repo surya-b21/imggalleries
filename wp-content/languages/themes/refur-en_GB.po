@@ -1,0 +1,393 @@
+# Translation of Themes - Refur in English (UK)
+# This file is distributed under the same license as the Themes - Refur package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-04 16:31:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Themes - Refur\n"
+
+#. Description of the theme
+msgid "Refur theme from Crocoblock will be a good solution for your business or blog website as it suits for both. Its minimalistic and mixed layout makes it work for both corporate website and blog one."
+msgstr "Refur theme from Crocoblock will be a good solution for your business or blog website as it is suited for both. Its minimalistic and mixed layout makes it work for both a corporate website and blog one."
+
+#. Theme Name of the theme
+msgid "Refur"
+msgstr "Refur"
+
+#. Template Name of the theme
+msgid "Posts With Featured Content"
+msgstr "Posts With Featured Content"
+
+#: template-parts/content-single.php:26 template-parts/content-page.php:21
+msgid "Pages:"
+msgstr "Pages:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nothing Found"
+
+#: template-parts/archive.php:28
+msgid "Search Results for: %s"
+msgstr "Search Results for: %s"
+
+#: inc/template-tags.php:442
+msgid "Post navigation"
+msgstr "Post navigation"
+
+#: inc/template-tags.php:437 template-parts/single.php:21
+msgid "Next"
+msgstr "Next"
+
+#: inc/template-tags.php:436 template-parts/single.php:20
+msgid "Prev"
+msgstr "Prev"
+
+#: inc/template-tags.php:143
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Posted on %s"
+
+#: inc/template-tags.php:148
+msgctxt "post author"
+msgid "by %s"
+msgstr "By %s"
+
+#: inc/template-tags.php:120 inc/template-tags.php:173
+msgid "Tagged %1$s"
+msgstr "Tagged %1$s"
+
+#: inc/template-tags.php:104 inc/template-tags.php:167
+msgid "Posted in %1$s"
+msgstr "Posted in %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:102 inc/template-tags.php:118
+#: inc/template-tags.php:165 inc/template-tags.php:171
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:90 inc/template-tags.php:179
+msgid "% Comments"
+msgstr "% Comments"
+
+#: inc/template-tags.php:90 inc/template-tags.php:179
+msgid "1 Comment"
+msgstr "1 Comment"
+
+#: inc/template-tags.php:90 inc/template-tags.php:179
+msgid "Leave a comment"
+msgstr "Leave a comment"
+
+#: inc/extras.php:266
+msgid "Website"
+msgstr "Website"
+
+#: inc/extras.php:265
+msgid "Email"
+msgstr "E-mail"
+
+#: inc/extras.php:264
+msgid "Name"
+msgstr "Name"
+
+#: inc/extras.php:224
+msgid "ago"
+msgstr "ago"
+
+#: inc/extras.php:241
+msgid "Your comment is awaiting moderation."
+msgstr "Your comment is awaiting moderation."
+
+#: inc/extras.php:211 inc/template-tags.php:183
+#: template-parts/content-page.php:28
+msgid "Edit"
+msgstr "Edit"
+
+#: inc/extras.php:96
+msgid "Custom Settings"
+msgstr "Custom Settings"
+
+#: inc/extras.php:211
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/extras.php:103
+msgid "We'll help you to resolve any issue you may face with while working with the theme."
+msgstr "We'll help you to resolve any issue you may face while working with the theme."
+
+#: inc/extras.php:101
+msgid "Great Support"
+msgstr "Great Support"
+
+#: inc/extras.php:98
+msgid "All theme settings are implemented into the native WordPress customizer - all you need is here, in one place."
+msgstr "All theme settings are implemented into the native WordPress Customiser - all you need is here, in one place."
+
+#: inc/extras.php:93
+msgid "All theme strings are ready to be translated. You can add your personal translation in several minutes."
+msgstr "All theme strings are ready to be translated. You can add your personal translation in several minutes."
+
+#: inc/extras.php:91
+msgid "Translation Ready"
+msgstr "Translation Ready"
+
+#: inc/extras.php:71
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/extras.php:66
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/extras.php:61
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/extras.php:56
+msgid "Google +"
+msgstr "Google +"
+
+#: inc/extras.php:51
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/extras.php:46
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:234
+msgid "Link to %s account:"
+msgstr "Link to %s account:"
+
+#: inc/customizer.php:214
+msgid "Header Socials"
+msgstr "Header Socials"
+
+#: inc/customizer.php:204
+msgid "Set custom copyright text"
+msgstr "Set custom copyright text"
+
+#: inc/customizer.php:193
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/customizer.php:183
+msgid "Loop page: read more button text"
+msgstr "Loop page: read more button text"
+
+#: inc/customizer.php:178 inc/template-tags.php:424
+msgid "Read More"
+msgstr "Read More"
+
+#: inc/customizer.php:169
+msgid "Loop page: show read more button"
+msgstr "Loop page: show read more button"
+
+#: inc/customizer.php:155
+msgid "Single page: show featured image"
+msgstr "Single page: show featured image"
+
+#: inc/customizer.php:141
+msgid "Loop page: show featured image"
+msgstr "Loop page: show featured image"
+
+#: inc/customizer.php:130
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/customizer.php:119
+msgid "Section %s content"
+msgstr "Section %s content"
+
+#: inc/customizer.php:105
+msgid "Section %s icon"
+msgstr "Section %s icon"
+
+#: inc/customizer.php:92
+msgid "Section %s title"
+msgstr "Section %s title"
+
+#: inc/customizer.php:73
+msgid "here"
+msgstr "here"
+
+#: inc/customizer.php:72
+msgid "Set icon from FontAwesome icons (pass only icon slug, e.q. cogs or fa-cogs, avaliabe icons you can find %s)"
+msgstr "Set icon from FontAwesome icons (pass only icon slug, e.g. cogs or fa-cogs, available icons you can find %s)"
+
+#: inc/customizer.php:68
+msgid "Featured Content"
+msgstr "Featured Content"
+
+#: inc/customizer.php:47
+msgid "Header Logo"
+msgstr "Header Logo"
+
+#: inc/customizer.php:59
+msgid "Logo Image"
+msgstr "Logo Image"
+
+#: inc/custom-header.php:150
+msgid "Header button URL"
+msgstr "Header button URL"
+
+#: inc/custom-header.php:138
+msgid "Header button text (leave empty to remove button)"
+msgstr "Header button text (leave empty to remove button)"
+
+#: inc/custom-header.php:126
+msgid "Header slogan description"
+msgstr "Header slogan description"
+
+#: inc/custom-header.php:114
+msgid "Header slogan title"
+msgstr "Header slogan title"
+
+#: inc/custom-header.php:97
+msgid "Image mask fill level"
+msgstr "Image mask fill level"
+
+#: inc/custom-header.php:85
+msgid "Image Mask Color"
+msgstr "Image Mask Colour"
+
+#: inc/custom-header.php:44
+msgid "Call to action"
+msgstr "Call to action"
+
+#: inc/custom-header.php:43
+msgid "Just a few words why you blog is so awesome"
+msgstr "Just a few words about why your blog is so awesome"
+
+#: inc/custom-header.php:42
+msgid "Your Awesome Blog"
+msgstr "Your Awesome Blog"
+
+#: header.php:27
+msgid "Skip to content"
+msgstr "Skip to content"
+
+#: functions.php:201
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:194
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:206
+msgctxt "Set subset for you language more info here - https://www.google.com/fonts/"
+msgid "latin,latin-ext"
+msgstr "latin, latin-ext"
+
+#: functions.php:187
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:137
+msgid "Sidebar Footer"
+msgstr "Sidebar Footer"
+
+#: functions.php:127
+msgid "Sidebar Main"
+msgstr "Sidebar Main"
+
+#: functions.php:52 template-parts/header.php:35
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+#: template-parts/footer.php:28
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#: template-parts/footer.php:26
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: template-parts/footer.php:26
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: comments.php:85
+msgid "Leave a Reply to %s"
+msgstr "Leave a Reply to %s"
+
+#: comments.php:84
+msgid "Leave a Reply"
+msgstr "Leave a Reply"
+
+#: comments.php:83
+msgid "Comment*"
+msgstr "Comment*"
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: comments.php:44 comments.php:66
+msgid "Newer Comments"
+msgstr "Newer Comments"
+
+#: comments.php:43 comments.php:65
+msgid "Older Comments"
+msgstr "Older Comments"
+
+#: comments.php:40 comments.php:62
+msgid "Comment navigation"
+msgstr "Comment navigation"
+
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "One thought on &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s thoughts on &ldquo;%2$s&rdquo;"
+
+#. translators: %1$s: smiley
+#: template-parts/404.php:49
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Try looking in the monthly archives. %1$s"
+
+#: template-parts/404.php:30
+msgid "Most Used Categories"
+msgstr "Most Used Categories"
+
+#: template-parts/404.php:18
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+
+#: template-parts/404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! That page can&rsquo;t be found."
+
+#. Author URI of the theme
+msgid "https://crocoblock.com/"
+msgstr "https://crocoblock.com/"
+
+#. Author of the theme
+msgid "Crocoblock"
+msgstr "Crocoblock"
+
+#. Theme URI of the theme
+msgid "https://github.com/Crocoblock/refur"
+msgstr "https://github.com/Crocoblock/refur"
